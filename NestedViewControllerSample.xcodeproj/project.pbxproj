@@ -22,6 +22,7 @@
 		4626FAF8188BAF530082CB34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4626FAD7188BAF530082CB34 /* UIKit.framework */; };
 		4626FB00188BAF530082CB34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4626FAFE188BAF530082CB34 /* InfoPlist.strings */; };
 		4626FB02188BAF530082CB34 /* NestedViewControllerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4626FB01188BAF530082CB34 /* NestedViewControllerSampleTests.m */; };
+		4626FB0D188BE6750082CB34 /* NVCChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4626FB0C188BE6750082CB34 /* NVCChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		4626FAFD188BAF530082CB34 /* NestedViewControllerSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NestedViewControllerSampleTests-Info.plist"; sourceTree = "<group>"; };
 		4626FAFF188BAF530082CB34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4626FB01188BAF530082CB34 /* NestedViewControllerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedViewControllerSampleTests.m; sourceTree = "<group>"; };
+		4626FB0B188BE6750082CB34 /* NVCChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVCChildViewController.h; sourceTree = "<group>"; };
+		4626FB0C188BE6750082CB34 /* NVCChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVCChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				4626FAE9188BAF530082CB34 /* NVCMasterViewController.m */,
 				4626FAEB188BAF530082CB34 /* NVCDetailViewController.h */,
 				4626FAEC188BAF530082CB34 /* NVCDetailViewController.m */,
+				4626FB0B188BE6750082CB34 /* NVCChildViewController.h */,
+				4626FB0C188BE6750082CB34 /* NVCChildViewController.m */,
 				4626FAEE188BAF530082CB34 /* Images.xcassets */,
 				4626FADA188BAF530082CB34 /* Supporting Files */,
 			);
@@ -258,6 +263,7 @@
 				4626FAE4188BAF530082CB34 /* NVCAppDelegate.m in Sources */,
 				4626FAED188BAF530082CB34 /* NVCDetailViewController.m in Sources */,
 				4626FAE0188BAF530082CB34 /* main.m in Sources */,
+				4626FB0D188BE6750082CB34 /* NVCChildViewController.m in Sources */,
 				4626FAEA188BAF530082CB34 /* NVCMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

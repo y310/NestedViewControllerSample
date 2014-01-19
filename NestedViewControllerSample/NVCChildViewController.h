@@ -1,5 +1,5 @@
 //
-//  NVCMasterViewController.h
+//  NVCChildViewController.h
 //  NestedViewControllerSample
 //
 //  Created by mito on 2014/01/19.
@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NVCMasterViewController : UITableViewController
+@interface NVCChildViewController : UITableViewController
+- (CGFloat)totalHeight;
 @end
